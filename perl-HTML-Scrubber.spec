@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Scrubber
-Summary:	HTML::Scrubber - Perl extension for scrubbing/sanitizing html
-#Summary(pl):	
+Summary:	HTML::Scrubber - Perl extension for scrubbing/sanitizing HTML
+Summary(pl):	HTML::Scrubber - rozszerzenie Perla do czyszczenia HTML-a
 Name:		perl-HTML-Scrubber
 Version:	0.08
 Release:	1
@@ -18,7 +18,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(HTML::Parser) >= 3
+BuildRequires:	perl-HTML-Parser >= 3
 BuildRequires:	perl(Test)
 BuildRequires:	perl(Test::More)
 %endif
@@ -26,15 +26,20 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-If you wanna "scrub" or "sanitize" html input in a reliable an flexible
-fashion, then this module is for you.
+If you wanna "scrub" or "sanitize" HTML input in a reliable and
+flexible fashion, then this module is for you.
 
 I wasn't satisfied with HTML::Sanitizer because it is based on
 HTML::TreeBuilder, so I thought I'd write something similar that works
 directly with HTML::Parser.
 
-# %description -l pl
-# TODO
+%description -l pl
+Je¶li chcemy "oczy¶ciæ" albo "uporz±dkowaæ" wej¶cie w HTML w
+wiarygodnym i elastycznym stylu, ten modu³ ma zastosowanie.
+
+Autor nie by³ usatysfakcjonowany HTML::Sanitizer, poniewa¿ jest oparty
+na HTML::TreeBuilder, wiêc stwierdzi³, ¿e napisze co¶ podobnego
+dzia³aj±cego bezpo¶rednio z modu³em HTML::Parser.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
