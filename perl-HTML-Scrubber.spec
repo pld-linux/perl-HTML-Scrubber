@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Scrubber
+%define		pdir	HTML
+%define		pnam	Scrubber
 Summary:	HTML::Scrubber - Perl extension for scrubbing/sanitizing HTML
 Summary(pl):	HTML::Scrubber - rozszerzenie Perla do czyszczenia HTML-a
 Name:		perl-HTML-Scrubber
