@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Scrubber
 Summary:	HTML::Scrubber - Perl extension for scrubbing/sanitizing HTML
-Summary(pl):	HTML::Scrubber - rozszerzenie Perla do czyszczenia HTML-a
+Summary(pl.UTF-8):   HTML::Scrubber - rozszerzenie Perla do czyszczenia HTML-a
 Name:		perl-HTML-Scrubber
 Version:	0.08
 Release:	1
@@ -33,13 +33,13 @@ I wasn't satisfied with HTML::Sanitizer because it is based on
 HTML::TreeBuilder, so I thought I'd write something similar that works
 directly with HTML::Parser.
 
-%description -l pl
-Je∂li chcemy "oczy∂ciÊ" albo "uporz±dkowaÊ" wej∂cie w HTML w
-wiarygodnym i elastycznym stylu, ten modu≥ ma zastosowanie.
+%description -l pl.UTF-8
+Je≈õli chcemy "oczy≈õciƒá" albo "uporzƒÖdkowaƒá" wej≈õcie w HTML w
+wiarygodnym i elastycznym stylu, ten modu≈Ç ma zastosowanie.
 
-Autor nie by≥ usatysfakcjonowany HTML::Sanitizer, poniewaø jest oparty
-na HTML::TreeBuilder, wiÍc stwierdzi≥, øe napisze co∂ podobnego
-dzia≥aj±cego bezpo∂rednio z modu≥em HTML::Parser.
+Autor nie by≈Ç usatysfakcjonowany HTML::Sanitizer, poniewa≈º jest oparty
+na HTML::TreeBuilder, wiƒôc stwierdzi≈Ç, ≈ºe napisze co≈õ podobnego
+dzia≈ÇajƒÖcego bezpo≈õrednio z modu≈Çem HTML::Parser.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
