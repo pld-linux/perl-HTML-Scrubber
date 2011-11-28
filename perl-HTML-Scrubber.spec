@@ -8,13 +8,13 @@
 Summary:	HTML::Scrubber - Perl extension for scrubbing/sanitizing HTML
 Summary(pl.UTF-8):	HTML::Scrubber - rozszerzenie Perla do czyszczenia HTML-a
 Name:		perl-HTML-Scrubber
-Version:	0.08
-Release:	2
+Version:	0.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	abadf246e528f3e2d31717ef8a1d90f2
+# Source0-md5:	a0f7bd0a29a4c7b1bec5495ad9bfb00e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
