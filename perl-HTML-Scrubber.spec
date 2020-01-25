@@ -4,7 +4,6 @@
 
 %define		pdir	HTML
 %define		pnam	Scrubber
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::Scrubber - Perl extension for scrubbing/sanitizing HTML
 Summary(pl.UTF-8):	HTML::Scrubber - rozszerzenie Perla do czyszczenia HTML-a
 Name:		perl-HTML-Scrubber
